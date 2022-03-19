@@ -36,7 +36,7 @@ class BlindInCallScreen extends StatelessWidget {
             BlindCubitSide.get(context).speak('Closing  call');
             BlindCubitSide.get(context).screenIndex = 4;
             BlindCubitSide.get(context).smallDispose();
-            BlindCubitSide.get(context).destroyMe();
+            // BlindCubitSide.get(context).destroyMe();
             BlindCubitSide.get(context).initializeMe();
           },
           // onVerticalDragEnd: (Details){

@@ -281,6 +281,7 @@ class VolunteerCubitSide extends Cubit<VolunteerStates> {
       );
       await _peerConnection!.addCandidate(candidate);
     });
+    _createPeerConnection();
     emit(VolunteerReceivingBlindRemoteInfo());
   }
 

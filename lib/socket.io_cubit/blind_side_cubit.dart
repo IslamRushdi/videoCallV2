@@ -416,5 +416,9 @@ class BlindCubitSide extends Cubit<BlindStates> {
     emit(BlindCloseCallState());
   }
 
-  void handleVolunteerClosingCall() {}
+  void handleVolunteerClosingCall() {
+
+
+    
+  }
 }

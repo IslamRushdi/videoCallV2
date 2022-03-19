@@ -37,7 +37,7 @@ class VolunteerCallingScreen extends StatelessWidget {
                         VolunteerCubitSide.get(context).pauseMusic();
                         VolunteerCubitSide.get(context).screenIndex = 3;
                         VolunteerCubitSide.get(context).setRemoteDescription(
-                            VolunteerCubitSide.get(context).blindSdp);
+                          VolunteerCubitSide.get(context).blindSdp);
                         VolunteerCubitSide.get(context).createAnswer();
                       },
                       icon: const Icon(

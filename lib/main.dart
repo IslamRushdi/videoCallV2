@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rtc_grad_blind_app_qwerty/screens/blind_vs_volunteer_screen.dart';
 
-
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
@@ -24,4 +23,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
